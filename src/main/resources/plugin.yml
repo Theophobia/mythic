@@ -1,0 +1,10 @@
+name: Mythic
+version: '${project.version}'
+main: me.theophobia.mythic.Mythic
+
+commands:
+  mythic:
+    description: Mythic core command
+    usage: /<command>
+
+api-version: 1.18

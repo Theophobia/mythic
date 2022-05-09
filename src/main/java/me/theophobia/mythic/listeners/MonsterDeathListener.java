@@ -1,5 +1,6 @@
-package me.theophobia.mythic;
+package me.theophobia.mythic.listeners;
 
+import me.theophobia.mythic.Config;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

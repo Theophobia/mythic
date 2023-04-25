@@ -41,6 +41,7 @@ public final class Mythic extends JavaPlugin {
 	public void onEnable() {
 		plugin = this;
 		configFile = new File(getDataFolder(), "config.json");
+		configFile.getParentFile().mkdirs();
 
 		// Load command executors
 		getCommand("mythic").setExecutor(new MythicCommand());
